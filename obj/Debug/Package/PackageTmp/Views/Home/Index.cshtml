@@ -1,0 +1,371 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@using Res = WebApplication2.Resources.Resources;
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>Wash Cloud</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+</head>
+<body>
+    @if (System.Threading.Thread.CurrentThread.CurrentCulture.Name == "en-US")
+    {
+        <div class="slider-area" dir="ltr">
+            <div class="slider1-active owl-carousel">
+                <div class="slider-wrapper  pt-280 pb-300 text-center" style=" background-image: url(../../assets/img/slider/HomeEn.jpg)">
+                    <div class="container">
+                        <div class="slider-content slider-text slider-text-animation">
+                            
+                            <a href="#contactUs">@Res.DownloadOurApp</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-wrapper bg-opacity pt-280 pb-300 text-center" style="background-image: url(../../assets/img/slider/slider1.jpg)">
+                    <div class="container">
+                        <div class="slider-content slider-text slider-text-animation">
+                            <span>@Res.LaundryAndDry</span>
+                            <h1>@Res.CleaningServices</h1>
+                            <a href="#contactUs">@Res.DownloadOurApp</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-wrapper bg-opacity pt-280 pb-300 text-center" style="background-image: url(../../assets/img/slider/slider3.jpg)">
+                    <div class="container">
+                        <div class="slider-content slider-text slider-text-animation">
+                            <span>@Res.LaundryAndDry</span>
+                            <h1>@Res.CleaningServices</h1>
+                            <a href="#contactUs">@Res.DownloadOurApp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="slider-area" dir="ltr">
+            <div class="slider1-active owl-carousel">
+                <div class="slider-wrapper  pt-280 pb-300 text-center" style="        background-image: url(../../assets/img/slider/HomeAr.jpg)">
+                    <div class="container">
+                        <div class="slider-content slider-text slider-text-animation">
+                           
+                            <a href="#contactUs">@Res.DownloadOurApp</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-wrapper bg-opacity pt-280 pb-300 text-center" style="background-image: url(../../assets/img/slider/slider1.jpg)">
+                    <div class="container">
+                        <div class="slider-content slider-text slider-text-animation">
+                            <span>@Res.LaundryAndDry</span>
+                            <h1>@Res.CleaningServices</h1>
+                            <a href="#contactUs">@Res.DownloadOurApp</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-wrapper bg-opacity pt-280 pb-300 text-center" style="background-image: url(../../assets/img/slider/slider3.jpg)">
+                    <div class="container">
+                        <div class="slider-content slider-text slider-text-animation">
+                            <span>@Res.LaundryAndDry</span>
+                            <h1>@Res.CleaningServices</h1>
+                            <a href="#contactUs">@Res.DownloadOurApp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    <!-- slider-area-start -->
+
+    <br /><br /><br />
+    <!-- service-area-end -->
+    <!-- featured-services-area-start -->
+    <div class="featured-services-area pt-120 pb-90 gray-bg">
+        <div class="container">
+            <div class="section-title text-center mb-70">
+                <span>@Res.WhatWeOffer</span>
+                <h3>@Res.YourCloudWardrobe</h3>
+                <p>@Res.TheFirstCloudLaundryService</p>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-wrapper mb-30">
+                        <div class="service-img">
+                            <img src="~/assets/img/steps/First-Card.png" alt="" />
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-wrapper mb-30">
+                        <div class="service-img">
+                            <img src="~/assets/img/steps/Second-Card.png" alt="" />
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-wrapper mb-30">
+                        <div class="service-img">
+                            <img src="~/assets/img/steps/Third-Card.png" alt="" />
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-wrapper mb-30">
+                        <div class="service-img">
+                            <img src="~/assets/img/steps/Fourth-Card.png" alt="" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- featured-services-area-end -->
+    <!-- Cleaning-area-start -->
+    <br /><br /><br />
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about-img mb-30" dir="ltr">
+                    <img src="../../assets/img/bg/aboutWashCloud.png" alt="" />
+                </div>
+            </div>
+            <div class=" col-md-6">
+
+                <div class="Cleaning-wrapper">
+                    <div class="cleaning-text">
+                        <h2>@Res.TheFirst<span>@Res.CloudLaundry</span></h2>
+                        <p>
+                            @Res.HomeText
+                        </p>
+
+                        <h3>@Res.UnlikeOthers</h3>
+
+                        <p>@Res.UnlikeOthersText</p>
+
+                        <h3><span>@Res.QuoteText</span></h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Cleaning-area-end -->
+    <!-- counter-area-start -->
+
+    <div class="counter-area pt-120 pb-90 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter-wrapper mb-30 text-center">
+                        <div class="counter-img" style="background-image:url(assets/img/counter/counter1.png)">
+                            <div class="counter-content text-center">
+                                <h2 class="counter">340</h2>
+                                <span>@Res.Downloads</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter-wrapper mb-30 text-center">
+                        <div class="counter-img" style="background-image: url(assets/img/counter/counter2.png)">
+                            <div class="counter-content text-center">
+                                <h2 class="counter">55</h2>
+                                <span>@Res.Orders</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter-wrapper mb-30 text-center">
+                        <div class="counter-img" style="background-image:url(assets/img/counter/counter3.png)">
+                            <div class="counter-content text-center">
+                                <h2 class="counter">120</h2>
+                                <span>@Res.Boxes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter-wrapper mb-30 text-center">
+                        <div class="counter-img" style="background-image:url(assets/img/counter/counter4.png)">
+                            <div class="counter-content text-center">
+                                <h2 class="counter">100</h2>
+                                <span>@Res.Subscriptions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- counter-area-end -->
+    <!-- pricing-area-start -->
+    <div class="pricing-area pt-50 pb-120">
+        <div class="container">
+            <div class="section-title text-center mb-110">
+                <span>@Res.WhatWeOffer</span>
+                <h3>@Res.PricingPlans</h3>
+                <p>@Res.DifferentPackages</p>
+            </div>
+            <div class="row m-0 pricing-inner">
+                <div class="col-md-4 col-sm-4">
+                    <div class="pricing-wrapper text-center mb-30">
+                        <div class="pricing-icon">
+                            <img src="../../assets/img/pricing/1.png" alt="" />
+                        </div>
+                        <div class="pricing-head">
+                            <h3>@Res.EasyPackage</h3>
+                        </div>
+                        <div class="price">
+                            <span>SAR</span>&nbsp;&nbsp;95&nbsp;&nbsp;
+                        </div>
+                        <ul class="pricing-menu">
+                            <li>30 @Res.Days</li>
+                            <li>12 @Res.Item</li>
+                            <li>7 @Res.MaxPerMonth</li>
+                        </ul>
+                        <div class="pricing-btn">
+                            <a href="#">@Res.Downloads</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="pricing-wrapper text-center active white-bg mb-30">
+                        <div class="pricing-icon">
+                            <img src="../../assets/img/pricing/2.png" alt="" />
+                        </div>
+                        <div class="pricing-head">
+                            <h3>@Res.ComfyPackage</h3>
+                        </div>
+                        <div class="price">
+                            <span>SAR</span>&nbsp;&nbsp;197&nbsp;&nbsp;
+                        </div>
+                        <ul class="pricing-menu">
+                            <li>30 @Res.Days</li>
+                            <li>27 @Res.Item</li>
+                            <li>7 @Res.MaxPerMonth</li>
+                        </ul>
+                        <div class="pricing-btn">
+                            <a href="#">@Res.Downloads</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="pricing-wrapper text-center mb-30">
+                        <div class="pricing-icon">
+                            <img src="../../assets/img/pricing/3.png" alt="" />
+                        </div>
+                        <div class="pricing-head">
+                            <h3>@Res.TopUp</h3>
+                        </div>
+                        <div class="price">
+                            <span>SAR</span>&nbsp;&nbsp;73/110&nbsp;&nbsp;
+                        </div>
+                        <ul class="pricing-menu">
+                            <li>10 / 15 @Res.Item</li>
+                        </ul>
+                        <div class="pricing-btn">
+                            <a href="#">@Res.Downloads</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- pricing-area-end -->
+    <!-- service-booking-area-start -->
+    <div class="counter-area pt-60 pb-30 green-bg" id="contactUs">
+        <div class="container">
+            <div class="section-title text-center mb-50">
+                <span style="color: lightgray;">@Res.WantMore</span>
+                <h3 style="color:white;">@Res.DownloadOurApp</h3>
+                <p style="color:white;">@Res.OnStore</p>
+                <br /><br />
+
+                <a href="https://www.qrs.ly/nqdo2gz"><img src="../../assets/img/store/applestore.png" alt="" width="80" height="80" /></a>
+                <a href="https://www.qrs.ly/nqdo2gz"><img src="../../assets/img/store/play.png" alt="" width="80" height="80" /></a>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- testimonial-area-start -->
+    <div class="testimonial-2-area ptb-120" dir="ltr">
+        <div class="container">
+            <div class="section-title text-center">
+                <span>@Res.Testimonials</span>
+                <h3>@Res.WhatClientsSay</h3>
+
+                <div class="row">
+                    <div class="col-offset">
+                        <div class="testimonial-2-active owl-carousel">
+                            <div class="testimonial-wrapper-2 text-center mt-70">
+                                <div class="testimonial-2-content">
+                                    <p>أفضل خدمة غسيل سرعة و نظام و جودة رائعة </p>
+                                </div>
+                                <div class="testimonial-2-information">
+                                    <div class="testimonial-2-img">
+                                        <img src="../../assets/img/testimonial/2.png" alt="">
+                                    </div>
+                                    <div class="testimonial-2-name">
+                                        <h3>Hassan Alhrtani</h3>
+                                        <span>via twitter</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-wrapper-2 text-center mt-70">
+                                <div class="testimonial-2-content">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you</p>
+                                </div>
+                                <div class="testimonial-2-information">
+                                    <div class="testimonial-2-img">
+                                        <img src="../../assets/img/testimonial/2.png" alt="">
+                                    </div>
+                                    <div class="testimonial-2-name">
+                                        <h3>Mark Murray</h3>
+                                        <span>via twitter</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-wrapper-2 text-center mt-70">
+                                <div class="testimonial-2-content">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you</p>
+                                </div>
+                                <div class="testimonial-2-information">
+                                    <div class="testimonial-2-img">
+                                        <img src="../../assets/img/testimonial/2.png" alt="">
+                                    </div>
+                                    <div class="testimonial-2-name">
+                                        <h3>Nathan Lopez</h3>
+                                        <span>via twitter</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- testimonial-area-end -->
+
+
+
+
+
+
+    </div>
+</body>
+
+

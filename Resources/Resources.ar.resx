@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>من نحن</value>
+  </data>
+  <data name="AboutUsHomeText" xml:space="preserve">
+    <value>
+ووش كلاود ابتكار سعودي فريد، صمم لأولئك الذين ليس لديهم الوقت الكافي لغسل ملابسهم أو لذهاب إلى المغاسل التقليدية. فإن كنت تبحث عن خدمة مريحة وتجربة فريدة لتسهيل جدولك اليومي فأنت في المكان الصحيح!</value>
+  </data>
+  <data name="AboutUsText" xml:space="preserve">
+    <value>مؤسسة سحابة الأفاق هم رواد أعمال يهدفون إلى تقديم مجموعة واسعة من الحلول الرقمية الجاهزة والمخصصة في العديد من المجالات. 
+من خلال الاستفادة من نماذج الأعمال المرنة الجديدة ، نحن مصممون على تقديم منتجات تبدو مخصصة حسب طموحات العملاء. 
+تم تصميم حلولنا المخصصة لتزويد العملاء بالمنتجات المناسبة التي يمكن أن تغطي فجوات العمل وتلبية احتياجاتهم. كما يوحي اسمنا ، رحلتنا لاكتشاف فرص جديدة للتنمية. 
+
+نشجع الحلول المبتكرة لمواجهة التحديات التكنولوجية والإجرائية لتحسين حياة الناس. 
+نصنع خدمات إلكترونية جديدة وحلولاً متكاملة لتسهيل حياة الناس الروتينية. 
+
+في مؤسسة سحابة الأفاق، نقوم بتطوير حلول في شكل خدمات فنية وبوابات ومنتجات إلكترونية. 
+نهدف إلى تطوير الحلول بالشراكة مع الجهات العامة والخاصة لخلق خدمات متطورة. 
+
+مهمتنا هي المساهمة في حل مشكلة قائمة أو سد فجوة الخدمة الحالية عن طريق تحويل الإجراءات التقليدية إلى شكل رقمي. 
+يسهل الحصول على هذه الحلول مباشرة من خلال الاشتراك المباشر في مجموعة متنوعة من الباقات ومتاحة للتخصيص حسب رغبة العميل.</value>
+  </data>
+  <data name="Boxes" xml:space="preserve">
+    <value>صندوق</value>
+  </data>
+  <data name="CleaningServices" xml:space="preserve">
+    <value>خدمات الغسيل</value>
+  </data>
+  <data name="CloudLaundry" xml:space="preserve">
+    <value>خدمة غسيل سحابية</value>
+  </data>
+  <data name="Comfy" xml:space="preserve">
+    <value>الراحة</value>
+  </data>
+  <data name="ComfyPackage" xml:space="preserve">
+    <value>باقة مرتاح</value>
+  </data>
+  <data name="Conatct us" xml:space="preserve">
+    <value>تواصل معنا</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>معلومات التواصل</value>
+  </data>
+  <data name="ContactText" xml:space="preserve">
+    <value>متواجدين دائمًا لمساعدتك
+
+تواصل معنا من خلال أي من قنوات الدعم التالية:</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>يوم</value>
+  </data>
+  <data name="DifferentPackages" xml:space="preserve">
+    <value>نوفرلك باقات متنوعة لتناسب احتياجاتك </value>
+  </data>
+  <data name="DownloadOurApp" xml:space="preserve">
+    <value>حمل التطبيق</value>
+  </data>
+  <data name="Downloads" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="EasyPackage" xml:space="preserve">
+    <value>باقة سهل</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>ايميل</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>موظف</value>
+  </data>
+  <data name="FailedMessage" xml:space="preserve">
+    <value>&lt;p&gt;&lt;b&gt;&lt;em&gt;فشل الارسال !!&lt;/em&gt;&lt;/b&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="FailedMsg" xml:space="preserve">
+    <value>فشل ارسال الرسالة !!</value>
+  </data>
+  <data name="FindUs" xml:space="preserve">
+    <value>أماكن تواجدنا</value>
+  </data>
+  <data name="FooterSaying" xml:space="preserve">
+    <value>يعتمد نجاحنا على سعادة عملائنا</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>المعرض</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="HomeText" xml:space="preserve">
+    <value>ووش كلاود المغسلة السحابية الأولى من نوعها في المملكة العربية السعودية. صممت هذا الخزائن لتخدم مرتاديين الأندية الرياضية والمقيميين في المجمعات السكنية الحديثة.</value>
+  </data>
+  <data name="HowTheApplicationWorks" xml:space="preserve">
+    <value>آلية عمل التطبيق</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>معلومات</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>قطعة</value>
+  </data>
+  <data name="ItemsType" xml:space="preserve">
+    <value>نوع القطع</value>
+  </data>
+  <data name="LaundryAndDry" xml:space="preserve">
+    <value>غسيل ، تجفيف ، وطي الملابس</value>
+  </data>
+  <data name="MaxPerMonth" xml:space="preserve">
+    <value>الحد الأقصى للعناصر في الشهر</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>الرسالة</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="OnStore" xml:space="preserve">
+    <value>متوفر على أبل ستور و جوجل بلاي</value>
+  </data>
+  <data name="Orders" xml:space="preserve">
+    <value>طلب</value>
+  </data>
+  <data name="OurLocations" xml:space="preserve">
+    <value>أماكن تواجدنا</value>
+  </data>
+  <data name="OurMissionText" xml:space="preserve">
+    <value>تقديم خدمات الغسيل الذكي للملابس بأفضل الممارسات التي تساهم في تحسين جودة الحياة لعملائنا مع تسارع وتيرة الحياة.</value>
+  </data>
+  <data name="OurPartners" xml:space="preserve">
+    <value>شركاؤنا</value>
+  </data>
+  <data name="OurService" xml:space="preserve">
+    <value> يسعدنا ان نكون أول من يقدم هذه الخدمة , لمساعدة العملاء للحصول على الغسيل بأسهل وأسرع طريقة بدون التعامل مع أي انسان, ونتميز :   </value>
+  </data>
+  <data name="OurServiceText" xml:space="preserve">
+    <value>مع ووش كلاود لن تحتاج أبداً لتضيع ساعة من يومك على الغسيل أو للذهاب مرتين إلى المغاسل التقليدية، ذلك لأننا نتواجد في أغلب المرافق التي تحتاج إلى ترك ملابسك فيها مثل الأندية الرياضية، لتعود وتجدها نظيفة وجاهزة وفي انتظارك دائماً.</value>
+  </data>
+  <data name="OurVisionText" xml:space="preserve">
+    <value>رؤيتنا: 
+أن نكون التطبيق الذكي الأول في المملكة العربية السعودية في خدمات الغسيل السحابية.</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>رقم الجوال</value>
+  </data>
+  <data name="PickUpTime" xml:space="preserve">
+    <value>وقت الاستلام</value>
+  </data>
+  <data name="PricingPlans" xml:space="preserve">
+    <value>الباقات</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>الخصوصية</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>سياسة الخصوصية</value>
+  </data>
+  <data name="PrivacyText" xml:space="preserve">
+    <value>&lt;b&gt;توضح سياسة الخصوصية &lt;/b&gt; هذه الأساس الذي سنقوم بموجبه بالتعامل مع أي بيانات شخصية، بما في ذلك على سبيل المثال الحصر، بيانات الدفع، وغيرها من البيانات الأخرى التي نجمعها منك أو من مصادر أخرى أو تلك التي تقدمها إلينا (يُشار إليها بـ"البيانات") وذلك بغية وصولك واستخدامك لمتجرنا او التطبيق للهاتف المتحرك (المشار إليها مجتمعة بـ"الموقع")، والخدمات والتطبيقات (المشار إليها مجتمعة بـ"الخدمات"). إننا ندرك أهمية هذه البيانات، ونحن نلتزم بحماية خصوصيتك واحترامها. يُرجى قراءة ما يلي بعناية لفهم ممارساتنا فيما يتعلق بالبيانات. باستخدامك لخدماتنا فإنك توافق على التعامل مع البيانات بما يتفق مع سياسة الخصوصية هذه.
+                تعد الإشارات المذكورة بضمير المتكلم (أو ما شابه) في سياسة الخصوصية هذه إشارات إلى مؤسسة سحابة الآفاق لتقنية المعلومات وتعد الإشارات "إليك" أو "المستخدم" إشارات إليك كفرد او شخص اعتباري، حسب مقتضى الحال.&lt;br/&gt;
+ &lt;b&gt;               ما هي البيانات التي قد نجمعها منك؟
+                قد نقوم بجمع ومعالجة البيانات التالية: &lt;/b&gt;
+                •	البيانات التي تقدمها عن طريق تعبئة النماذج في الموقع، بما في ذلك البيانات التي تم تقديمها عند التسجيل لاستخدام الموقع والتسجيلات المشتركة الأخرى (على سبيل المثال تسجيلات دخول مواقع التواصل الاجتماعي) أو الاشتراك في خدماتنا أو نشر المواد أو طلب خدمات أخرى.
+                •	البيانات التي تقدمها عند دخول منافسة أو عرض ترويجي عبر موقعنا، أو استكمال استطلاع للرأي، أو عمليات تصويت أو تقديم مراجعات أو شهادات أو ملاحظات.
+                •	البيانات التي تقدمها لنا، أو التي قد نجمعها منك، عندما تُبلغنا عن اي صعوبة تواجهها عند استخدام موقعنا.
+                •	سجل المراسلات في حال الاتصال بنا.
+                •	بيانات عامة ومُجمعة وديموغرافية وغير شخصية.
+                •	إذا قمت بتحميل أو استخدام تطبيقنا للهاتف المتحرك، فقد نتمكن من الوصول إلى تفاصيل تتعلق بموقعك وموقع هاتفك المتحرك، بما في ذلك المُعرف المُميِّز الخاص بجهازك.
+                •	تفاصيل المعاملات التي قمت بإجرائها عبر موقعنا وتفاصيل قيامنا بتجهيز وتسليم البضائع أو الخدمات التي طلبتها.
+                •	تفاصيل حول جهاز الكمبيوتر الخاص بك، بما في ذلك على سبيل المثال، عنوان بروتوكول الإنترنتIP  الخاص بك ونظام التشغيل ونوع المتصفح، بالإضافة إلى البيانات المتعلقة باستخدامك العام لشبكة الإنترنت (على سبيل المثال: عن طريق استخدام تقنية تُخزن البيانات على جهازك أو الوصول إليه، مثل ملفات تعريف الارتباط وكود تتبع التحويلات وإشارات الويب وما إلى ذلك (المشار إليها مجتمعة بـ"ملفات تعريف الارتباط")).
+                •	عنوان بريدك الالكتروني الذي تم تزويدنا به من قبل الغير الذين أكدوا لنا استحصالهم على موافقتك على مشاركة عنوان بريدك الالكتروني.
+                •	أي بيانات أخرى نعتبرها ضرورية لتعزيز تجربتك في استخدام الموقع.&lt;br/&gt;
+                &lt;b&gt;كيف سنستخدم البيانات الخاصة بك؟
+                قد نستخدم البيانات في الحالات التالية: &lt;/b&gt;
+                •	لتزويدك بالمعلومات أو المنتجات أو الخدمات التي تطلبها منا أو نرى أنك قد تكون مهتماً بها، وحيث قمت بالموافقة على أن يتم الاتصال بك لمثل هذه الأغراض.
+                •	لتزويدك بالخدمات المعتمدة على المكان الذي توجد فيه، مثل الإعلان ونتائج البحث ومحتويات آخري مخصصة لك.
+                •	لتنفيذ الالتزامات الناجمة عن أي عقود مبرمة بينك وبين أي جهة اخرى تستخدم موقعنا، أو بينك وبيننا.
+                •	لتحسين خدماتنا ولتقديم خدمات أفضل ومخصصة بدرجة أكبر.
+                •	لضمان تقديم محتوى موقعنا بأكثر الطرق فاعلية لك وللجهاز الذي تستخدمه للوصول إلى موقعنا.
+                •	لإخطارك بالتغييرات التي يجريها موقعنا.
+                •	لأي سبب آخر نراه ضرورياً لتعزيز تجربة تصفحك للموقع.
+                •	لإدارة البرامج التحفيزية وتلبية طلباتك للحصول على هذه الحوافز، و/او للسماح لك بالمشاركة بالمسابقات واخطارك في حالة الفوز.&lt;br/&gt;
+    &lt;b&gt;            إلى من يمكننا الإفصاح عن البيانات؟&lt;/b&gt;
+                تُعد البيانات الخاصة بعملائنا جزءاً مهماً جداً من عملنا. وبالتالي فإننا لا نشارك البيانات إلا حسبما هو مذكور أدناه فقط ومع الشركات التي تتبع الممارسات التي لها مزايا حماية، وبحد أدني، مماثلة لمزايا تلك الممارسات الواردة في سياسة الخصوصية:
+                •	&lt;b&gt;أطراف آخرين: &lt;/b&gt;لتوفير خدماتنا، قد نتعاون مع شركات اخرى تابعة لنا او مزودي خدمة غير تابعين لنا (على سبيل المثال: الشركات اللوجستية المُستخدمة لتوصيل المنتجات إلى المواقع، شركات التسويق، معالجة الدفعات لإجراء معاملات عبر الإنترنت وغير ذلك). من الممكن ان تقوم هذه الشركات الأخرى في سبيل تنفيذ معاملاتك، بتخزين البيانات في محفظة رقمية حتى يكون استخدامك لخدماتنا اكثر فعالية.
+                أنت تدرك مدى أهمية وصول هذه الشركات إلى البيانات ذات الصلة لأداء مهامها. ونحرص على ألا تستخدم هذه الشركات البيانات في أغراض أخرى. وقد نتلقى أيضاً بيانات من هذه الشركات (على سبيل المثال: بيانات التسليم والعناوين المحدثة)، بغرض استخدامها (على سبيل المثال: لتصحيح سجلاتنا وتوصيل خدمات تخص اية عملية شراء تقوم بها). من خلال استخدامك للموقع، فإنك توافق على نقل، تخزين، استخدام، والافصاح عن البيانات بين الشركات التابعة لنا ومزودي خدمة غير تابعين لنا اينما كان موقعها الجغرافي. على ان تلتزم هذه الشركات تعاقديا باحترام خصوصية البيانات.
+
+                •	&lt;b&gt;التسويق والعروض الترويجية: &lt;/b&gt; قد نستخدم أيضاً البيانات لتزويدك بمعلومات عن السلع والخدمات التي قد تكون مهتماً بها فضلاً عن تعزيز تجربتك في تصفح واستعمال الموقع، ورسائل الخدمة، والمزايا الجديدة والتحسينات والعروض الخاصة والفعاليات ذات الأهمية. يُمكننا التواصل معك عبر قنوات مختلفة، بما في ذلك على سبيل المثال لا الحصر رسائل البريد الإلكتروني وإشعارات الويب والمنشورات والهاتف ورسائل التطبيق وبطاقات نقل مقالات الأخبار.
+                قد نسمح لطرف ثالث باستخدام البيانات، على سبيل المثال: ربما نقدم البيانات إلى المعلنين لمساعدتهم في الوصول إلى الجمهور المستهدف لتمكيننا من الامتثال لالتزاماتنا أمام المعلنين (أي: عن طريق عرض إعلاناتهم على الجمهور المستهدف).
+                وبالإضافة إلى ذلك، للمشاركة في بعض المنافسات والعروض الترويجية الخاصة بنا، قد يُطلب منك تقديم بيانات إضافية. على سبيل المثال: إذا فزت في إحدى المنافسات فقد يُطلب منك تقديم المزيد من البيانات الشخصية لتأكيد أهليتك وتقديم الجائزة إليك. وتُجرى عملية جمع هذه البيانات بواسطتنا أو بواسطة الرعاة المشاركين أو البائعين للعروض الترويجية. يُرجى ملاحظة أنه ينبغي لك مراجعة سياسات الخصوصية المتعلقة بهذا الطرف الثالث لمعرفة كيفية استخدامه لأي بيانات يعمل على جمعها.
+
+                •	&lt;b&gt;تحويلات الأعمال: &lt;/b&gt;في حالة الاستحواذ على شركتنا أو جميع أصولنا فعلياً، ستكون بيانات العميل أحد الأصول التي يتم تحويلها للمالك الجديد.
+
+                •	&lt;b&gt;حماية موقعنا والمواقع الأخرى: &lt;/b&gt; نفصح عن حساب العميل وبياناته الشخصية الأخرى عندما نرى أن هذا الإفصاح مناسب للامتثال للقوانين والتحقيقات التي تتم لإنفاذ القوانين ولحماية الحقوق، أو الممتلكات أو سلامة مستخدمينا أو الآخرين. ويتضمن هذا تبادل البيانات مع الشركات والمؤسسات الأخرى لعدة أسباب، منها الحماية من جرائم الاحتيال والحد من مخاطر الائتمان.
+                ويُرجى ملاحظة أن موقعنا قد يحتوي -من حين لآخر- على روابط من وإلى مواقع خاصة بشبكات الشركات التي نتعامل معها والمعلنين والشركات التابعة لنا، وفي حالة الدخول في رابطاً من أحد هذه الروابط يُرجى العلم بأن هذه المواقع تمتلك سياسات خصوصية الخاصة بها، وأننا لن نتحمل أي مسؤولية أو مطالبة عن هذه السياسات. كما يُرجى التحقق من سياسات تلك المواقع قبل تقديم أي بيانات شخصية أو أي معلومات أخرى إليها.&lt;br/&gt;
+   &lt;b&gt;             كيف يمكنك الوصول إلى البيانات وتعديلها؟&lt;/b&gt;
+                يمكنك الوصول إلى مجموعة كبيرة من البيانات الخاصة بحسابك وتعاملاتك مع الموقع بغرض عرض البيانات، وتحديثها في بعض الحالات.
+                أمثلة البيانات التي يمكنك الوصول إليها بسهولة على الموقع:
+                •	بيانات محدثة فيما يتعلق بأحدث طلبات الشراء التي قمت بها.
+                •	بيانات التعريف الشخصي (بما في ذلك، الاسم والبريد الإلكتروني وكلمة المرور والمراسلات وتفضيلات الإعلانات الشخصية).
+                •	إعدادات الدفع (بما في ذلك معلومات بطاقة الائتمان).
+                •	إعدادات إشعارات البريد الإلكتروني.&lt;br/&gt;
+                يمكنك رفض تلقي رسائلنا التسويقية في المستقبل في أي وقت عن طريق ضبط تفضيلات مراسلات العميل الخاصة بك، من خلال رابط إلغاء الاشتراك الموجود في مراسلات البريد الإلكتروني. للتسوق من خلال تطبيق الهاتف المتحرك ستحتاج إلى ضبط إعدادات الإشعارات في القسم العام في هاتفك المتحرك.
+                بالإضافة إلى ذلك، سيضع النظام الخاص بنا ملفات تعريف الارتباط عند تسجيل الدخول إلى الموقع وهذا لضمان تجربة ممتعة وسلسة للمستخدم عبر الموقع. يمكنك إلغاء تفعيل ملفات تعريف الارتباط عن طريق تغيير إعدادات المتصفح. وفي حال إلغاء التفعيل لملفات تعريف الارتباط، سيؤثر ذلك على كيفية عمل موقعنا وربما لن تكون قادراً على الوصول إلى أو استخدام بعض أو جميع الوظائف في الموقع. على سبيل المثال: تجمع ملفات تعريف الارتباط الخاصة بالأداء معلومات حول كيفية استخدامك للموقع –أي: الصفحات التي تزورها في معظم الأوقات- مما يسمح لنا بتزويدك بالخيارات المستهدفة وذات الصلة التي تعزز تجربة تصفحك واستخدامك للموقع.
+                يجوز أن نحتفظ بنسخة من البيانات لأغراض الامتثال للقوانين، وبالذات عند تحديثك للمعلومات حيث نحتفظ بنسخة من البيانات السابقة للحفظ في سجلاتنا.&lt;br/&gt;
+   &lt;b&gt;             ماذا لو غيرنا سياسة الخصوصية الخاصة بنا؟&lt;/b&gt;
+                يتعرض عملنا لتغييرات بصفة مستمرة، لذا قد تتأثر سياسة الخصوصية الخاصة بنا وتحتاج إلى تغيير موازٍ. سوف نقوم بنشر النسخة الحالية لسياسة الخصوصية هذه على الموقع وستظل سارية المفعول منذ نشرها على الموقع أو بناءً على الموعد الذي نحدده من جانبنا كـتاريخ لسريانها.
+                قد نقوم بإرسال رسائل تذكيرية بصفة دورية عبر البريد الإلكتروني بإخطاراتنا وشروطنا، ولكن ينبغي لك التحقق بزيارتك المتكررة لموقعنا للاطلاع على أحدث التغييرات.
+                يجب عليك التحقق من سياسة الخصوصية بصورة منتظمة. فإن استمرارك في استخدام الموقع بعد أي تغييرات يُعد موافقة منك على سياسة الخصوصية هذه بصيغتها المعدلة.&lt;br/&gt;
+     &lt;b&gt;           كيف يمكنك الاتصال بنا؟
+                إذا كان لديك أي استفسارات تتعلق بالبيانات الخاصة بك على الموقع يُرجى الاتصال بنا:
+ Info@horizonscloud.net&lt;/b&gt;</value>
+  </data>
+  <data name="PutItems" xml:space="preserve">
+    <value>وضع القطع</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>الجودة </value>
+  </data>
+  <data name="QuoteText" xml:space="preserve">
+    <value>روتينك صار أسهل!</value>
+  </data>
+  <data name="ReportABug" xml:space="preserve">
+    <value>إبلاغ عن خطأ</value>
+  </data>
+  <data name="Safety" xml:space="preserve">
+    <value>الأمان</value>
+  </data>
+  <data name="SaudiInnovativeCompany" xml:space="preserve">
+    <value>شركة سعودية مبتكرة</value>
+  </data>
+  <data name="ScanQR" xml:space="preserve">
+    <value>مسح الQR</value>
+  </data>
+  <data name="Select Branch" xml:space="preserve">
+    <value>اختيار فرع</value>
+  </data>
+  <data name="SendAMessage" xml:space="preserve">
+    <value>ارسال رسالة</value>
+  </data>
+  <data name="SendYourMessage" xml:space="preserve">
+    <value> ارسل استفسارك </value>
+  </data>
+  <data name="Service1" xml:space="preserve">
+    <value>01. طاقم عمل مميز و رائع لايصال افضل خدمة للعميل.</value>
+  </data>
+  <data name="Service2" xml:space="preserve">
+    <value>02. أسهل وأسرع طريقة للحصول على غسيلك</value>
+  </data>
+  <data name="Service3" xml:space="preserve">
+    <value>03. مساعدة العملاء متوفرة 24 ساعة.</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>خدماتنا</value>
+  </data>
+  <data name="SignUpOrLogIn" xml:space="preserve">
+    <value>تسجيل الدخول \ تسجيل</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>قم بالتسجيل باستخدام رقم الجوال.</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>اختر الفرع المطلوب من علامة إضافة الطلب أسفل الشاشة.</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>اختر نوع الملابس لكل عنصر.</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>حدد موعد الاستلام ضمن نطاق ٧ ساعات صباحاً أو مساءً.</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>سوف يظهر لك صورة كود QR خاص فيك، مرر الكود على الضوء الأحمر في الخزانة، لتفتح لك خزانة فارغة.</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>قم بوضع ملابسك داخل الخزانة، وستكون جاهزة في الزيارة القادمة.</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>ارسل</value>
+  </data>
+  <data name="Subscriptions" xml:space="preserve">
+    <value>الإشتراكات</value>
+  </data>
+  <data name="SuccessMessage" xml:space="preserve">
+    <value>&lt;p&gt;تم ارسال الرسالة بنجاح !!&lt;/p&gt;</value>
+  </data>
+  <data name="SuccessMsg" xml:space="preserve">
+    <value>تم ارسال الرسالة بنجاح !!</value>
+  </data>
+  <data name="SuggestAnImprovement" xml:space="preserve">
+    <value>اقتراح تحسين</value>
+  </data>
+  <data name="Testimonials" xml:space="preserve">
+    <value>التوصيات</value>
+  </data>
+  <data name="TheBestFullService" xml:space="preserve">
+    <value>أفضل خدمة متكاملة</value>
+  </data>
+  <data name="TheFirst" xml:space="preserve">
+    <value>أول </value>
+  </data>
+  <data name="TheFirstCloudLaundryService" xml:space="preserve">
+    <value>خدمة الغسيل السحابية الأولى</value>
+  </data>
+  <data name="TopUp" xml:space="preserve">
+    <value>باقات تعزيز الاشتراكات</value>
+  </data>
+  <data name="TopUpItems" xml:space="preserve">
+    <value>10 أو 15</value>
+  </data>
+  <data name="TopUpPrice" xml:space="preserve">
+    <value>73 أو 110</value>
+  </data>
+  <data name="Trust" xml:space="preserve">
+    <value>الثقة</value>
+  </data>
+  <data name="UnlikeOthers" xml:space="preserve">
+    <value>ماذا يميزنا:</value>
+  </data>
+  <data name="UnlikeOthersText" xml:space="preserve">
+    <value>
+إذا كنت ستتعامل مع مغاسل التوصيل، فلا عجب أنك ستفاجئ بالأسعار المرتفعة للتوصيل أو حتى لتغيير مواعيد الاستلام والتسليم. نحن في ووش كلاود نوفر لك جدول مرن عبر التطبيق لتتمكن من ترتيب مواعيدك وتعديلها متى تشاء.</value>
+  </data>
+  <data name="WantMore" xml:space="preserve">
+    <value>لمعرفة المزيد !!</value>
+  </data>
+  <data name="WashCloudService" xml:space="preserve">
+    <value>خدمة ووش كلاود</value>
+  </data>
+  <data name="WhatClientsSay" xml:space="preserve">
+    <value>رأي العملاء</value>
+  </data>
+  <data name="WhatWeOffer" xml:space="preserve">
+    <value>ماذا نقدم</value>
+  </data>
+  <data name="WhereToFindUs" xml:space="preserve">
+    <value>وين تحصلنا !!</value>
+  </data>
+  <data name="YourCloudWardrobe" xml:space="preserve">
+    <value>خزانة ملابسك السحابية ! </value>
+  </data>
+</root>

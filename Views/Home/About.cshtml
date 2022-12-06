@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "About us";
+}
+@using Res = WebApplication2.Resources.Resources;
+
+
+
+
+@if (System.Threading.Thread.CurrentThread.CurrentCulture.Name == "en-US")
+{
+    <div lang="en" class="breadcrumb-banner-area  ptb-150" style="background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../../assets/img/bg/AboutEn.jpg)
+    ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="breadcrumb-text text-center">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div lang="ar" class="breadcrumb-banner-area ptb-150" style="        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../../assets/img/bg/AboutAr.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="breadcrumb-text text-center">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+<!-- breadcrumb-banner-area-end -->
+<!-- about-area-start -->
+<div class="about-area pt-120 pb-90">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about-img mb-30">
+                    <img src="../../assets/img/about/about.jpg" alt="" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="about-wrapper mb-30">
+                    <div class="about-title">
+
+                        <h4>@Res.SaudiInnovativeCompany</h4>
+                        <h1>Horizons <span>Cloud</span></h1>
+                        <p>
+                            @Html.Raw(@Res.AboutUsText.Replace("\r\n", "<br />"))
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- about-area-end -->

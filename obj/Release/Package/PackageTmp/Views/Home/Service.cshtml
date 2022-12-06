@@ -1,0 +1,115 @@
+﻿@{
+    ViewData["Title"] = "Our Service";
+}
+@using Res = WebApplication2.Resources.Resources;
+
+<!-- breadcrumb-banner-area -->
+@if (System.Threading.Thread.CurrentThread.CurrentCulture.Name == "en-US")
+{
+    <div lang="en" class="breadcrumb-banner-area bg-opacity-3 ptb-150" style="        background-image: url(../../assets/img/bg/ServiceEn.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="breadcrumb-text text-center">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div lang="ar" class="breadcrumb-banner-area bg-opacity-3 ptb-150" style="        background-image: url(../../assets/img/bg/ServiceEn.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="breadcrumb-text text-center">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<!-- breadcrumb-banner-area-end -->
+<!-- single-service-area-start -->
+<div class="single-service-area green-bg pt-120 pb-90">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="single-service-wrapper mb-30">
+
+                    <div class="single-service-text">
+                        <h2>@Res.WashCloudService</h2>
+                        <p>@Res.OurServiceText</p>
+                         <div class="widget mb-30 white-bg service-widget" >
+                            <h3 class="service-title">@Res.HowTheApplicationWorks</h3>
+                            <ul class="recent-posts">
+                                <li>
+                                    <div class="service-widget-image" >
+                                        <a href="#"><img src="../../assets/img/service/loginIcon1.png" alt="" /></a>
+                                    </div>
+                                    <div class="service-widget-body">
+                                        <span>1 - @Res.SignUpOrLogIn</span>
+                                        <h5><a href="#">@Res.Step1</a></h5>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="service-widget-image">
+                                        <a><img src="../../assets/img/service/locationIcon.png" alt="" /></a>
+                                    </div>
+                                    <div class="service-widget-body">
+                                        <span>2 - @Res.Select_Branch</span>
+                                        <h5>@Res.Step2</h5>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="service-widget-image">
+                                        <a><img src="../../assets/img/service/clothesIcon.png" alt="" /></a>
+                                    </div>
+                                    <div class="service-widget-body">
+                                        <span>3 - @Res.ItemsType</span>
+                                        <h5>@Res.Step3</h5>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="service-widget-image">
+                                        <a><img src="../../assets/img/service/dateTimeIcon.png" alt="" /></a>
+                                    </div>
+                                    <div class="service-widget-body">
+                                        <span>4 - @Res.PickUpTime</span>
+                                        <h5>@Res.Step4</h5>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="service-widget-image">
+                                        <a><img src="../../assets/img/service/qrIcon.png" alt="" /></a>
+                                    </div>
+                                    <div class="service-widget-body">
+                                        <span>5 - @Res.ScanQR</span>
+                                        <h5>@Res.Step5</h5>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="service-widget-image">
+                                        <a><img src="../../assets/img/service/lockerIcon.png" alt="" /></a>
+                                    </div>
+                                    <div class="service-widget-body">
+                                        <span>6 - @Res.PutItems</span>
+                                        <h5>@Res.Step6</h5>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- single-service-area-end -->

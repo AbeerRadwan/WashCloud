@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AboutUsHomeText" xml:space="preserve">
+    <value>Wash Cloud is a unique Saudi innovation, designed
+for those who do not have enough time to wash
+their clothes or go to the traditional laundries. If
+you are looking for a convenient service and a
+unique experience to facilitate your daily schedule,
+then you are in the right place!</value>
+  </data>
+  <data name="AboutUsText" xml:space="preserve">
+    <value>Horizons Cloud are entrepreneurs aim to offer wide range of ready-made and customized digital solutions in many areas.
+By availing new flexible business models, we are determined to deliver products that are seemingly personalized to customers' ambitions.
+
+Our customized solutions are designed to provide customers with the right products that can cover business gaps and meet their needs.
+ As our name implies, our journey to unfold new Opportunities for development. We encourage innovative solutions to encounter technological and procedural challenges to improve people life.
+We create new e-services and integrated solutions to ease people routine and life.
+
+ At Horizons Cloud, we develop solutions in the form of Technical Services, Portals, and E-Products
+ We aim to develop solutions in partnership with public, and private entities to create sophisticated services.
+ Our mission t contribute in solving an existing problem or bridging an existing service gap by transforming traditional procedures into digital form.
+ These solutions are easy to obtain directly through direct subscription to a variety of packages and available to customization as desired by the customer.</value>
+  </data>
+  <data name="Boxes" xml:space="preserve">
+    <value>Boxes</value>
+  </data>
+  <data name="CleaningServices" xml:space="preserve">
+    <value>Cleaning Services</value>
+  </data>
+  <data name="CloudLaundry" xml:space="preserve">
+    <value>Cloud Laundry</value>
+  </data>
+  <data name="Comfy" xml:space="preserve">
+    <value>Comfy</value>
+  </data>
+  <data name="ComfyPackage" xml:space="preserve">
+    <value>Comfy Package</value>
+  </data>
+  <data name="Conatct us" xml:space="preserve">
+    <value>Conatct us</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>Contact Info</value>
+  </data>
+  <data name="ContactText" xml:space="preserve">
+    <value>We're Always Here To Help
+
+Reach out to us through any of these support channels</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>days</value>
+  </data>
+  <data name="DifferentPackages" xml:space="preserve">
+    <value>we provide you with different packages that will suit your needs</value>
+  </data>
+  <data name="DownloadOurApp" xml:space="preserve">
+    <value>Download our app</value>
+  </data>
+  <data name="Downloads" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
+  <data name="EasyPackage" xml:space="preserve">
+    <value>Easy Package</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="FailedMessage" xml:space="preserve">
+    <value>&lt;p&gt;&lt;b&gt;Your message was &lt;em&gt;not&lt;/em&gt; sent.&lt;/b&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="FailedMsg" xml:space="preserve">
+    <value>Message failed to send !!</value>
+  </data>
+  <data name="FindUs" xml:space="preserve">
+    <value>Find Us</value>
+  </data>
+  <data name="FooterSaying" xml:space="preserve">
+    <value>Our Clients happiness is our sucess "Wash Cloud"</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="HomeText" xml:space="preserve">
+    <value>Wash Cloud is the first cloud service of its kind in
+the Kingdom of Saudi Arabia. These laundry's
+cloud lockers are designed to serve gym goers and
+residents of modern residential complexes.</value>
+  </data>
+  <data name="HowTheApplicationWorks" xml:space="preserve">
+    <value>How the application works</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>item</value>
+  </data>
+  <data name="ItemsType" xml:space="preserve">
+    <value>Items type</value>
+  </data>
+  <data name="LaundryAndDry" xml:space="preserve">
+    <value>Laundry and Dry</value>
+  </data>
+  <data name="MaxPerMonth" xml:space="preserve">
+    <value>Max per month</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="OnStore" xml:space="preserve">
+    <value>its available on apple store and google play</value>
+  </data>
+  <data name="Orders" xml:space="preserve">
+    <value>Orders</value>
+  </data>
+  <data name="OurLocations" xml:space="preserve">
+    <value>Our Locations</value>
+  </data>
+  <data name="OurMissionText" xml:space="preserve">
+    <value>Providing smart laundry services with best
+practices that contribute to improving the quality
+of life for our customers with the acceleration of
+life.</value>
+  </data>
+  <data name="OurPartners" xml:space="preserve">
+    <value>Our Partners</value>
+  </data>
+  <data name="OurService" xml:space="preserve">
+    <value>We are happy to be the first one's who provieded this serives , to help the customer to have thier laundry in the esiest , fastest and none human intercations, what makes us special is :</value>
+  </data>
+  <data name="OurServiceText" xml:space="preserve">
+    <value>With Wash Cloud, you will never need to waste an
+hour of your day on washing or going twice to the
+traditional laundries, because we are existing in
+most of the facilities where you need to leave your
+clothes like gyms, to come back and find them
+clean, ready and always waiting for you.</value>
+  </data>
+  <data name="OurVisionText" xml:space="preserve">
+    <value>Our Vision:
+To be the first application in the Kingdom of Saudi
+Arabia for everything related to laundry.</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="PickUpTime" xml:space="preserve">
+    <value>Pick up time</value>
+  </data>
+  <data name="PricingPlans" xml:space="preserve">
+    <value>Pricing Plans</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>Privacy</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="PrivacyText" xml:space="preserve">
+    <value>&lt;b&gt;This Privacy Policy&lt;/b&gt; sets out the basis on which we will process any personal data, including without limitation, payment data, and other data we collect from you or from other sources or that you provide to us ("Data") for your access and use of our store or mobile application (collectively the “Site”), services and applications (collectively, the “Services”).
+ We understand the importance of this data, and we are committed to protecting and respecting your privacy. &lt;br/&gt;
+&lt;b&gt;Please read the following carefully to understand our data practices. &lt;/b&gt;
+By using our services, you consent to the handling of data in accordance with this Privacy Policy. References to pronoun (or similar) in this Privacy Policy are references to HORIZONS CLOUD FOR INFORMATION TECHNOLOGY EST. and references to “you” or “user” are references to you as an individual or legal person, as applicable. &lt;br/&gt;
+               &lt;b&gt; What data may we collect from you?&lt;/b&gt;
+               &lt;b&gt; We may collect and process the following data: &lt;/b&gt;
+                •	Data that you provide by filling out forms on the Site, including data that was provided when registering to use the Site and other shared registrations (eg, social media logins), subscribing to our services, publishing materials, or ordering other services.
+                •	Data you provide when entering a competition or promotion through our site, completing a survey, voting, or submitting reviews, testimonials, or feedback.
+                •	Data you provide to us, or that we may collect from you, when you tell us about any difficulty you encounter when using our site.
+                •	Record correspondence if you contact us.
+                •	General, aggregate, demographic, and non-personal data.
+                •	If you download or use our Mobile Application, we may be able to access details about your location and your mobile location, including your device's unique identifier.
+                •	Details of the transactions you have made through our website and details of our processing and delivery of the goods or services you have requested.
+                •	details about your computer, including, for example, your IP address, operating system, and browser type, as well as data about your general use of the Internet (for example, by using technology that stores data on or accessing your device, Such as cookies, conversion tracking code, web beacons, etc. (collectively, “Cookies”)).
+                •	Your email address that was provided to us by third parties who confirmed to us that they obtained your consent to share your email address.
+                •	Any other data we consider necessary to enhance your experience using the Site.&lt;br/&gt;
+               &lt;b&gt; How will we use your data? &lt;/b&gt;
+               &lt;b&gt; We may use the data in the following cases: &lt;/b&gt;
+                •	To provide you with information, products or services that you request from us or which we think you may be interested in, and where you have agreed to be contacted for such purposes.
+                •	To provide you with location-based services, such as advertising, search results, and other content tailored to you.
+                •	To carry out the obligations arising from any contracts entered into between you and any other party using our site, or between you and us.
+                •	To improve our services and to provide better and more customized services.
+                •	To ensure that the content of our site is presented in the most effective manner for you and the device you use to access our site.
+                •	To notify you of changes to our site.
+                •	For any other reason we deem necessary to enhance your browsing experience on the site.
+                •	To administer incentive programs and fulfil your requests for such incentives, and/or to allow you to participate in competitions and to notify you if you win.
+                To whom can we disclose data?
+                •	Data about our customers is a very important part of our business. We therefore share data only as described below and with companies that follow practices that have security features that are, at a minimum, similar to those practices described in the Privacy Policy:
+                •	Third parties: To provide our Services, we may cooperate with other affiliated companies or non-affiliated service providers (for example: logistic companies used to deliver products to the Sites, marketing companies, payment processors for online transactions, etc.). In order to carry out your transactions, these other companies may store the data in a digital wallet so that your use of our services is more efficient.
+                You understand how important it is for these companies to have access to relevant data to perform their tasks. We make sure that these companies do not use the data for other purposes. We may also receive data from these companies (for example: delivery data and updated addresses), for the purpose of using them (for example: to correct our records and deliver services for any purchase you make). By using the Site, you consent to the transfer, storage, use, and disclosure of data between our affiliates and non-affiliated service providers wherever they are located. These companies are contractually obligated to respect data privacy.&lt;br/&gt;
+                •	&lt;b&gt;Marketing and promotions: &lt;/b&gt;&lt;br/&gt;We may also use data to provide you with information about goods and services that may be of interest to you as well as to enhance your experience of browsing and using the Site, service messages, new features and improvements, special offers and events of interest. We may communicate with you via various channels, including but not limited to emails, web notifications, postings, telephone, application messages and news article transfer cards.
+                We may allow third parties to use the data, for example: we may provide data to advertisers to help them reach their target audience and to enable us to comply with our obligations to advertisers (ie: by displaying their ads to a target audience).
+                In addition, to participate in some competitions and shows, in our database, you may be asked to provide additional data. For example: If you win a competition, you may be asked to provide more personal data to confirm your eligibility and award you the prize. This data is collected by us or by participating sponsors or sellers of promotions. Please note that you should review the privacy policies of this third party to learn how they use any data they collect.
+
+                •	&lt;b&gt;Business Transfers: &lt;/b&gt;In the event that our company or virtually all of our assets are acquired, customer data will be one of the assets transferred to the new owner.
+
+                •	&lt;b&gt;Protecting our Site and Other Sites: &lt;/b&gt;We disclose a customer's account and other personal data when we believe such disclosure is appropriate to comply with laws and law enforcement investigations and to protect the rights, property, or safety of our users or others. This includes exchanging data with other companies and organizations for a variety of reasons, including fraud protection and credit risk reduction.
+               &lt;b&gt; Please note that &lt;/b&gt;our website may contain - from time to time - links to and from the websites of our corporate networks, advertisers, and affiliate companies. No liability or claim for these policies. Also, please check the policies of those websites before providing any personal data or other information to them.
+               &lt;b&gt; How do you access and modify the data? &lt;/b&gt;
+                You can access a wide range of data about your account and your interactions with the site for the purpose of displaying the data, and in some cases updating it.
+
+               &lt;b&gt; Examples of data that you can easily access on the site: &lt;/b&gt;
+
+                •	Updated data regarding your most recent purchase orders.
+                •	Personally identifiable data (including your name, email, password, communications, and personal advertising preferences).
+                •	Payment settings (including credit card information).
+                •	Settings for email notifications.
+                You may refuse to receive our marketing communications in the future at any time by adjusting your customer communications preferences, through the unsubscribe link provided in the email communications. To shop through the mobile application, you will need to adjust the notification settings in the general section of your mobile phone.
+                In addition, our system will place cookies when you log into the site to ensure a pleasant and smooth user experience through the site. You can disable cookies by changing your browser settings. If you disable cookies, this will affect how our website works and you may not be able to access or use some or all the functionality of the website. For example: performance cookies collect information about how you use the Site – ie which pages you visit most often – allowing us to provide you with relevant and targeted options that enhance your browsing experience and use of the Site.
+                We may retain a copy of the data for the purposes of compliance with laws when you update information where we keep a copy of the prior data for our records.&lt;br/&gt;
+                &lt;b&gt;What if we change our privacy policy? &lt;/b&gt;
+                Our work is constantly changing, so our Privacy Policy may be affected and need a parallel change. We will publish the current version of this Privacy Policy on the Site and it will remain in effect from the date of its publication on the Site or upon the date we specify as the date of its entry into force.
+                We may periodically send email reminders of our notices and terms, but you should check your frequent visit to our site for the latest changes.
+                You should check the Privacy Policy regularly. Your continued use of the Site following any changes constitutes your acceptance of this Privacy Policy as amended.&lt;br/&gt;
+               &lt;b&gt; How can you contact us? 
+                If you have any questions regarding your data on the site please contact us:
+
+                Info@horizonscloud.net&lt;/b&gt;</value>
+  </data>
+  <data name="PutItems" xml:space="preserve">
+    <value>Put items</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="QuoteText" xml:space="preserve">
+    <value>Your routine, just got easier!</value>
+  </data>
+  <data name="ReportABug" xml:space="preserve">
+    <value>Report a bug</value>
+  </data>
+  <data name="Safety" xml:space="preserve">
+    <value>Safety</value>
+  </data>
+  <data name="SaudiInnovativeCompany" xml:space="preserve">
+    <value>Saudi Innovative Company</value>
+  </data>
+  <data name="ScanQR" xml:space="preserve">
+    <value>Scan QR</value>
+  </data>
+  <data name="Select Branch" xml:space="preserve">
+    <value>Select branch</value>
+  </data>
+  <data name="SendAMessage" xml:space="preserve">
+    <value>Send a message</value>
+  </data>
+  <data name="SendYourMessage" xml:space="preserve">
+    <value>Send Your Message</value>
+  </data>
+  <data name="Service1" xml:space="preserve">
+    <value>01. great and amazing staff that will dilver the best service.</value>
+  </data>
+  <data name="Service2" xml:space="preserve">
+    <value>02. easy and fast way to get your laundry.</value>
+  </data>
+  <data name="Service3" xml:space="preserve">
+    <value>03. 24 hours customer support</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="SignUpOrLogIn" xml:space="preserve">
+    <value>Sign up / Login</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Register using the phone number</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Choose the branch from the add order
+button at the bottom of the screen.</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Choose the type of clothing for each
+item</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>Set the pickup time within 7 hours in
+the morning or evening.</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>It will show you an image of a QR code
+for you, pass the code on the red light
+in the locker, to open an empty locker</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>Put your clothes inside the closet, and
+they will be ready for the next visit.</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Subscriptions" xml:space="preserve">
+    <value>Subscriptions</value>
+  </data>
+  <data name="SuccessMessage" xml:space="preserve">
+    <value>&lt;p&gt;Your message sent successfully !!&lt;/p&gt;</value>
+  </data>
+  <data name="SuccessMsg" xml:space="preserve">
+    <value>Message was sent successfully !!</value>
+  </data>
+  <data name="SuggestAnImprovement" xml:space="preserve">
+    <value>Suggest an improvement</value>
+  </data>
+  <data name="Testimonials" xml:space="preserve">
+    <value>Testimonials</value>
+  </data>
+  <data name="TheBestFullService" xml:space="preserve">
+    <value>The Best Full Service</value>
+  </data>
+  <data name="TheFirst" xml:space="preserve">
+    <value>The First </value>
+  </data>
+  <data name="TheFirstCloudLaundryService" xml:space="preserve">
+    <value>The First Cloud Laundry Service</value>
+  </data>
+  <data name="TopUp" xml:space="preserve">
+    <value>Subscription Top Ups</value>
+  </data>
+  <data name="TopUpItems" xml:space="preserve">
+    <value>10 or 15</value>
+  </data>
+  <data name="TopUpPrice" xml:space="preserve">
+    <value>73 or 110</value>
+  </data>
+  <data name="Trust" xml:space="preserve">
+    <value>Trust</value>
+  </data>
+  <data name="UnlikeOthers" xml:space="preserve">
+    <value>Unlike others:</value>
+  </data>
+  <data name="UnlikeOthersText" xml:space="preserve">
+    <value>if you are going to deal with delivery laundries, it is
+no wonder that you will be surprised by the high
+prices of delivery or the change in pick-up and
+delivery times. We at Wash Cloud provide you
+with a flexible schedule via the application so that
+you can arrange and modify your appointments
+whenever you want.</value>
+  </data>
+  <data name="WantMore" xml:space="preserve">
+    <value>Want more !!</value>
+  </data>
+  <data name="WashCloudService" xml:space="preserve">
+    <value>Wash Cloud Service</value>
+  </data>
+  <data name="WhatClientsSay" xml:space="preserve">
+    <value>What Clients Say</value>
+  </data>
+  <data name="WhatWeOffer" xml:space="preserve">
+    <value>What we offer</value>
+  </data>
+  <data name="WhereToFindUs" xml:space="preserve">
+    <value>Where to find us !!</value>
+  </data>
+  <data name="YourCloudWardrobe" xml:space="preserve">
+    <value>Your Cloud Wardrobe!</value>
+  </data>
+</root>

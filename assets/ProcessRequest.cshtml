@@ -1,0 +1,53 @@
+﻿@{
+    var name = Request["name"];
+    var email = Request["email"];
+    var message = Request["message"];
+    var subject = Request["subject"];
+    var phone = Request["phone"];
+    var errorMessage = "";
+    var debuggingFlag = false;
+    try
+    {
+        //horizonscloud - net.mail.protection.outlook.com
+
+        // Initialize WebMail helper
+        WebMail.SmtpServer = "smtpout.secureserver.net";
+        WebMail.SmtpPort = 25;
+        WebMail.UserName = "info@horizonscloud.net";
+        WebMail.Password = "Horizons@2021";
+        WebMail.From = "info@horizonscloud.net";
+
+        // Send email
+        WebMail.Send(to: "info@horizonscloud.net",
+            subject: "Help request - " + subject + " - " + name + " - " + phone,
+            body: message + "  -  from: " + email
+        );
+
+    }
+    catch (Exception ex)
+    {
+        errorMessage = ex.Message;
+    }
+
+
+
+
+}
+
+
+@if (errorMessage == "")
+{
+    @Html.Raw("Success!!")
+
+}
+else
+{
+    @Html.Raw("Failed!!")
+    if (debuggingFlag)
+    {
+        @Html.Raw("Failed!!")
+        @errorMessage
+    }
+}
+
+

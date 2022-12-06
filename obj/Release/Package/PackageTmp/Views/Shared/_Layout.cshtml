@@ -1,0 +1,277 @@
+﻿@using Res = WebApplication2.Resources.Resources;
+@using System.Globalization
+@if (CultureInfo.CurrentCulture.TextInfo.IsRightToLeft)
+{
+    <link rel="stylesheet" type="text/css" href="~/assets/css/rtl.css">
+}
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Wash Cloud</title>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- all css here -->
+    @Styles.Render("~/Content/plugins/jstree/jstree")
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/assets/css/flaticon.css">
+    <link rel="stylesheet" href="~/assets/css/ionicons.min.css">
+    <link rel="stylesheet" href="~/assets/css/et-line-icon.css">
+    <link rel="stylesheet" href="~/assets/css/headline.css">
+    <link rel="stylesheet" href="~/assets/css/animate.min.css">
+    <link rel="stylesheet" href="~/assets/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="~/assets/css/meanmenu.css">
+    <link rel="stylesheet" href="~/assets/css/Pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="~/assets/css/bundle.css">
+    <link rel="stylesheet" href="~/assets/css/style.css">
+    <link rel="stylesheet" href="~/assets/css/responsive.css">
+
+</head>
+<body>
+    <header>
+        <div class="header-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 hidden-sm hidden-xs">
+                        
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="header-icon" dir="rtl">
+                            <a href="@Url.Action("ChangeLanguage", "Home", new { lang = "ar" })">عربي</a>
+                             | 
+                            <a href="@Url.Action("ChangeLanguage", "Home", new { lang = "en" })">English</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header-top-area-end -->
+        <!-- main-menu-area-start -->
+        <div class="main-menu-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="logo" dir="ltr">
+                            <a href="@Url.Action("Index", "Home")"><img src="~/assets/img/logo/logo.png" alt="logo" height="50" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                      
+                        <div class="main-menu floatright">
+                            <nav>
+                                <ul>
+                                    <li class=@ViewBag.Index>
+                                        @Html.ActionLink(Res.Home, "Index", "Home")
+                                    </li>
+                                    <li class=@ViewBag.About>
+                                        @Html.ActionLink(Res.About, "About", "Home")
+
+                                    </li>
+                                    <li class=@ViewBag.Service>
+                                        @Html.ActionLink(Res.Services, "Service", "Home")
+
+                                    </li>
+                                    <li class=@ViewBag.Gallery>
+                                        @Html.ActionLink(Res.Gallery, "Gallery", "Home")
+                                    </li>
+                                    <li class=@ViewBag.Contact>
+                                        @Html.ActionLink(Res.Conatct_us, "Contact", "Home")
+
+                                    </li>
+                                    <li class=@ViewBag.Privacy>
+                                        @Html.ActionLink(Res.Privacy, "Privacy", "Home")
+
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xs-12"><div class="mobile-menu"></div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- header-top-area-start -->
+        <!-- main-menu-area-start -->
+        <!--<div class="main-menu-area header-style-2">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <div class="col-md-2 col-sm-6 col-xs-6" style="padding:10px">
+                        <div class="header-logo">
+                            <a href="@Url.Action("Index", "Home")"><img src="~/assets/img/logo/logo.png" alt="logo" height="50" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="main-menu menu-style-1">
+                            <nav>
+                                <ul>
+                                    <li class=@ViewBag.Index>
+                                        @Html.ActionLink(Res.Home, "Index", "Home")
+                                    </li>
+                                    <li class=@ViewBag.About>
+                                        @Html.ActionLink(Res.About, "About", "Home")
+
+                                    </li>
+                                    <li class=@ViewBag.Service>
+                                        @Html.ActionLink(Res.Services, "Service", "Home")
+
+                                    </li>
+                                    <li class=@ViewBag.Gallery>
+                                        @Html.ActionLink(Res.Gallery, "Gallery", "Home")
+                                    </li>
+                                    <li class=@ViewBag.Contact>
+                                        @Html.ActionLink(Res.Conatct_us, "Contact", "Home")
+
+                                    </li>
+                                    <li class=@ViewBag.Privacy>
+                                        @Html.ActionLink(Res.Privacy, "Privacy", "Home")
+
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-md-3 hidden-sm hidden-xs" dir="ltr">
+                        <div class="icon floatright">
+
+                            <a href="@Url.Action("ChangeLanguage", "Home", new { lang = "ar" })"><img alt="" src="~/assets/img/saudi-arabia.png"></a>
+                            <a href="@Url.Action("ChangeLanguage", "Home", new { lang = "en" })"><img alt="" src="~/assets/img/united-states.png"></a>
+
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main-menu-area-end -->
+    </header>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+
+    </div>
+    <footer>
+        <!-- footer-top-area-start -->
+        <div class="footer-top-area pt-100 pb-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="footer-wrapper mb-30">
+                            <div class="footer-logo">
+                                <a href="#"><img src="~/assets/img/logo/logo.png" alt="" /></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>@Res.FooterSaying</p>
+                            </div>
+                            <div class="footer-icon">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="https://twitter.com/Washcloudksa?t=E48LML_zVoLZrm8Fzul3NA&s=08"><i class="fa fa-twitter"></i></a>
+                                <a href="https://instagram.com/washcloudksa?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="footer-wrapper mb-30">
+                            <h4 class="footer-title">@Res.Information</h4>
+                            <ul class="footer-menu">
+
+                                <li class=@ViewBag.About>
+                                    @Html.ActionLink(Res.About, "About", "Home")
+
+                                </li>
+                                <li class=@ViewBag.Service>
+                                    @Html.ActionLink(Res.Services, "Service", "Home")
+
+                                </li>
+                                <li class=@ViewBag.Gallery>
+                                    @Html.ActionLink(Res.Gallery, "Gallery", "Home")
+                                </li>
+                                <li class=@ViewBag.Contact>
+                                    @Html.ActionLink(Res.Conatct_us, "Contact", "Home")
+
+                                </li>
+                                <li class=@ViewBag.Privacy>
+                                    @Html.ActionLink(Res.Privacy, "Privacy", "Home")
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="footer-wrapper mb-30">
+                                <h4 class="footer-title">@Res.OurPartners</h4>
+                                <ul class="footer-img">
+                                    <li><a href="http://wawangym.com/"><img alt="" src="~/assets/img/footer/1.png"></a></li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- footer-bottom-area-start -->
+        <div class="footer-bottom-area ptb-20">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright text-center">
+                            <p>2022 - Horizons Cloud Establishment for Information Technology - Saudi Arabia - Riyadh </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer-bottom-area-end -->
+        <!-- footer-top-area-end -->
+    </footer>
+
+
+
+
+
+
+    <!-- all js here -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="~/assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="~/assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="~/assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/headline.js"></script>
+    <script src="~/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/assets/js/jquery.scrollUp.min.js"></script>
+    <script src="~/assets/js/isotope.pkgd.min.js"></script>
+    <script src="~/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="~/assets/js/jquery.counterup.min.js"></script>
+    <script src="~/assets/js/waypoints.min.js"></script>
+    <script src="~/assets/js/jquery.parallax-1.1.3.js"></script>
+    <script src="~/assets/js/wow.min.js"></script>
+    <script src="~/assets/js/owl.carousel.min.js"></script>
+    <script src="~/assets/js/jquery.meanmenu.js"></script>
+    <script src="~/assets/js/ajax-mail.js"></script>
+    <script src="~/assets/js/plugins.js"></script>
+    <script src="~/assets/js/main.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/js/site.js" asp-append-version="true"></script>
+
+
+    @RenderSection("scripts", required: false)
+</body>
+
+</html>
+

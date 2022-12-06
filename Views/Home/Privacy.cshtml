@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+@using Res = WebApplication2.Resources.Resources;
+
+
+<!-- breadcrumb-banner-area -->
+@if (System.Threading.Thread.CurrentThread.CurrentCulture.Name == "en-US")
+{
+    <div lang="en" class="breadcrumb-banner-area  ptb-150" style="        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../../assets/img/bg/PrivacyEn.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="breadcrumb-text text-center">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div lang="ar" class="breadcrumb-banner-area  ptb-150" style="background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../../assets/img/bg/PrivacyAr.jpg)
+    ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="breadcrumb-text text-center">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<!-- breadcrumb-banner-area-end -->
+<!-- about-area-start -->
+<br />
+<br />
+<div class="container" style=" color: #2D3437;">
+    <div class="row">
+        @if (System.Threading.Thread.CurrentThread.CurrentCulture.Name == "en-US")
+        {
+
+            <div class="col-md-12" style="text-align:justify; padding-right:60px">
+                @Html.Raw(@Res.PrivacyText.Replace("\r\n", "<br />"))
+            </div>
+        }
+        else
+        {
+    <div class="col-md-12" style="text-align:justify; padding-left:60px">
+        @Html.Raw(@Res.PrivacyText.Replace("\r\n", "<br />"))
+    </div>
+        }
+
+
+    </div>
+</div>
+<!-- about-area-end -->
